@@ -1,9 +1,39 @@
-p {
-    text-align: center;
-    font-size: x-large;
+body {
+    margin: 45px 45px 45px 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    display: flex;
     
 }
 
-nav {
+.nav {
+    background-color: rgb(190, 210, 253);
+    size: 0ch;
     
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.nav a:hover {
+    color: rgb(10, 10, 100);
+    transform: rotate(5deg);
+    transition: all 0.3s ease-out;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.nav li{
+    margin-left: 20px;
 }
