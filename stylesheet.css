@@ -6,13 +6,14 @@ body {
 
 .header {
     display: flex;
-    
+    padding-bottom: 10px;   
 }
 
 .nav {
     background-color: rgb(190, 210, 253);
-    size: 0ch;
-    
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
 }
 
 .nav a {
@@ -35,5 +36,19 @@ body {
 }
 
 .nav li{
-    margin-left: 20px;
+    margin-left: 50px;
+    position:inherit;
 }
+
+article {
+    float:left;
+}
+.sidebar {
+    float: right;
+    width: 250px;
+    overflow: hidden;
+    display: flex;
+    min-height: 700px;
+
+}
+
