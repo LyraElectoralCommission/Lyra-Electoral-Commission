@@ -1,7 +1,11 @@
 
 body {
-    margin: 45px 45px 45px 45px;
+    margin: 60px 60px 60px 60px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .header {
@@ -42,13 +46,5 @@ body {
 
 article {
     float:left;
-}
-.sidebar {
-    float: right;
-    width: 250px;
-    overflow: hidden;
-    display: flex;
-    min-height: 700px;
-
 }
 
